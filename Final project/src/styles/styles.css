@@ -1,0 +1,151 @@
+/* Font*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:#FFFAF0; */
+    background-color:white;
+    color: #333; /* Text color */
+    margin:0
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    /* background-color: #FFFAF0; */
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #2980b9;
+    color: white;
+  }
+
+/* Apply CSS styles to the top banner */
+.top-banner {
+    position: relative;
+    width: 100%;
+    height: 300px; /* You can adjust the height as needed */
+    background-image: url('../assets/banner-image.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+}
+
+/* Style for banner text */
+.banner-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* "Basics" image formatting */
+.basics-banner {
+    position: relative;
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    background-image: url('../assets/basics-image.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+/* "EQ waves" image formatting */
+.EQwaves-banner {
+    position: relative;
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    background-image: url('../assets/EQwaves.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+    opacity: 0.7;
+    margin-bottom: 50px
+}
+
+/* "EQ useful" image formatting */
+.EQuseful-banner {
+    position: relative;
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    background-image: url('../assets/EQuseful.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+    opacity: 0.7;
+    margin-bottom: 50px
+}
+
+/* "Live monitoring" image formatting */
+.monitoring-banner {
+    position: relative;
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    background-image: url('../assets/monitoring.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+    opacity: 0.7;
+    margin-bottom: 50px
+}
+
+/* "FAQs" image formatting */
+.FAQs-banner {
+    position: relative;
+    width: 100%;
+    height: 150px; /* You can adjust the height as needed */
+    background-image: url('../assets/FAQs.png');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center;
+    object-fit:cover;
+    opacity: 0.7;
+    margin-bottom: 50px
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #2980b9;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
