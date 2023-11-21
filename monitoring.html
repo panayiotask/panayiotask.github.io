@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Earthquake RSS Feed" href="https://quakes.bgs.ac.uk/feeds/MhSeismology.xml">
 </head>
 <body>
     <div class="topnav">
@@ -21,6 +22,40 @@
     <main>
         <h3>Live monitoring of earthquakes</h3>
         <p>[...]</p>
+        <div id="rss-feed"></div>
+
+<!-- <script>
+  // Replace with the Feedspot RSS feed URL
+  const rssFeedURL = "https://quakes.bgs.ac.uk/feeds/MhSeismology.xml";
+
+  // Function to fetch and display the RSS feed
+  async function displayRSSFeed() {
+    const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeedURL}`);
+    const data = await response.json();
+
+    const feedContainer = document.getElementById("rss-feed");
+
+    // Create a list of feed items
+    const items = data.items.map(item => `
+      <h2>${item.title}</h2>
+      <p>${item.pubDate}</p>
+      <p>${item.description}</p>
+      <a href="${item.link}" target="_blank">Read more</a>
+    `);
+
+    feedContainer.innerHTML = items.join("");
+  }
+
+  // Call the function to display the RSS feed
+  displayRSSFeed();
+
+  // After displaying the RSS feed, apply CSS styles to the feed items
+const feedItems = document.querySelectorAll("#rss-feed h2, #rss-feed p, #rss-feed a");
+
+</script> -->
+
+
+
     </main>
 
     <!-- Rest of your website content goes here -->

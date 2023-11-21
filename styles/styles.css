@@ -4,7 +4,8 @@ body {
     /* background-color:#FFFAF0; */
     background-color:white;
     color: #333; /* Text color */
-    margin:0
+    margin:0;
+    padding: 0
 }
 
 /* Add a background color to the top navigation */
@@ -12,6 +13,11 @@ body {
     /* background-color: #FFFAF0; */
     background-color: white;
     overflow: hidden;
+    position:fixed;
+    width:100%;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
   }
   
   /* Style the links inside the navigation bar */
@@ -37,14 +43,16 @@ body {
   }
 
 /* Apply CSS styles to the top banner */
+
 .top-banner {
-    position: relative;
+    position: left;
     width: 100%;
     height: 300px; /* You can adjust the height as needed */
     background-image: url('../assets/banner-image.png');
     background-size: cover; /* Ensures the image covers the entire banner */
     background-position: center;
     object-fit:cover;
+    background-attachment: fixed
 }
 
 /* Style for banner text */
@@ -149,3 +157,8 @@ body {
   .btn:hover {
     background-color: black;
   }
+
+/* Modify live feed */
+.rss-feed {
+
+}
