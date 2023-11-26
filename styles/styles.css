@@ -12,6 +12,7 @@ body {
 .topnav {
     /* background-color: #FFFAF0; */
     background-color: white;
+    padding:14px;
     overflow: hidden;
     position:fixed;
     width:100%;
