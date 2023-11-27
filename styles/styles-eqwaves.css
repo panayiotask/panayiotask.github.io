@@ -96,7 +96,7 @@ main {
 }
 
 /* Style for the main content container */
-.basics-content {
+.eqwaves-content {
     display: flex;
     flex-direction: column;
     align-items: center; /* Horizontally center content */
@@ -117,8 +117,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-.earth-structure-image
-.earthquake-anatomy-image{
+.Pwaves-image,
+.Swaves-image,
+.Rwaves-image,
+.Lwaves-image,
+.seismicity-image{
     display: flex;
     justify-content: center; /* Align image horizontally */
     align-items: center; /* Align image vertically */
@@ -126,9 +129,11 @@ h2 {
     height: 300px; /* Set container height */
 }
 
-.earth-structure-image img,
-.earthquake-anatomy-image img {
+.Pwaves-image img,
+.Swaves-image img,
+.Rwaves-image img,
+.Lwaves-image img,
+.seismicity-image img{
     max-width: 100%; /* Ensure image doesn't exceed container width */
     max-height: 100%; /* Ensure image doesn't exceed container height */
-    /* Additional styling for the image */
 }
